@@ -5,23 +5,25 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="css/main.css" rel="stylesheet">
-        <link href="css/button.css" rel="stylesheet">
         <link href="css/footer.css" rel="stylesheet">
-        <link href="FA/css/all.css" rel="stylesheet">
         <link href="FA4/css/font-awesome.css" rel="stylesheet">
         <script src="jquery-3.5.1.js"></script>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Glegoo&family=Poppins:ital,wght@0,100;1,100&family=Roboto:wght@300&family=Space+Grotesk:wght@300&family=Tajawal:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">  
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
       </head>
     <body>
 
       <!-- Navbar -->
-      <nav class="navbar navbar-style navbar-expand-lg navbar-light bg-transparent">
+      <!-- <nav class="navbar navbar-style navbar-expand-lg navbar-light bg-transparent">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" 
                   data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
@@ -33,96 +35,105 @@
               <li data-aos="fade-left" data-aos-delay="250" data-aos-duration="800"
                   data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
                   class="nav-item">
-                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link custom-nav-hover" href="#about">About</a>
               </li>
               <li data-aos="fade-left" data-aos-delay="500" data-aos-duration="800"
                   data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
                   class="nav-item">
-                <a class="nav-link" href="#services">Services</a>
+                <a class="nav-link custom-nav-hover" href="#services">Services</a>
               </li>
               <li  data-aos="fade-left" data-aos-delay="750" data-aos-duration="800"
                   data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
                   class="nav-item">
-                <a class="nav-link" href="#skills">Skills</a>
+                <a class="nav-link custom-nav-hover" href="#skills">Skills</a>
               </li>
               <li   data-aos="fade-left" data-aos-delay="1000" data-aos-duration="800"
                     data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
                     class="nav-item">
-                <a class="nav-link" href="#tools">Tools</a>
+                <a class="nav-link custom-nav-hover" href="#tools">Tools</a>
               </li>
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> -->
 
     <button onclick="topFunction()" id="TopButton" title="Go to top"><i class="fa fa-arrow-up"></i></button>
     
     <div class="main"> 
 
-      <!-- Introduction Name -->
-      <h1 data-aos="fade-up" data-aos-delay="2000" data-aos-duration="800"
+      <div class="responsive-landing-design">
+        <div class="flex-item-left">
+          <!-- Introduction Name -->
+          <h1 data-aos="fade-up" data-aos-delay="1500" data-aos-duration="1000"
           data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
-          class="introtext text-center" id="myTitle">Daryl John Tadeo</h1>
-      <h3 data-aos="fade-up" data-aos-delay="2500" data-aos-duration="800"
-          data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
-          class="subintro-text text-center">Web Developer</h3>
+          class="introtext" id="myTitle">Daryl John Tadeo <br>
+                                Web Developer, Programmer<br>
+                                and Freelancer</h1><br>
+          <button data-aos="fade-right" data-aos-delay="2200" data-aos-duration="500"
+            data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
+            class="root-button resume-button"><span><i class="fa fa-download download-icon" aria-hidden="true"></i> Resume</span>
+          </button>
+        </div>
+        <div class="flex-item-right">
+          <!-- My Image -->
+          <div data-aos="fade-up" data-aos-delay="3000" data-aos-duration="800"
+            data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
+            class="d-flex justify-content-center">
+            <img src="dev.svg" alt="Avatar" class="my-image img-responsive">
+          </div>
+        </div>
 
-      <!-- My Image -->
-      <div data-aos="fade-up" data-aos-delay="3000" data-aos-duration="800"
-           data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
-           class="d-flex justify-content-center">
-        <img src="daryl.jpg" alt="Avatar" class="my-image img-responsive">
       </div>
 
       <!-- About Me -->
       <div class="container" id="about">
         <h2 data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in-out"
-            data-aos-mirror="true" data-aos-once="false" class="abouttext text-center">Hi, I'm Daryl. Nice meeting you.</h2>
+            data-aos-mirror="true" data-aos-once="false" class="abouttext text-center">Hi, Nice meeting you.</h2>
         <h4 data-aos="fade-down" data-aos-duration="500" data-aos-delay="1000"
             data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
             class="subabout-text text-center">I’m an upcoming 4th-year BSIT Student. I expertise in Web Development both in Front and Back End Development.
             I worked as a Web Developer at home already. However, I'm still looking to land progressive jobs as a Developer to gain experience and improved myself
             in the field. Most importantly is to help peoples and company who needs my service.</h4>
 
-        <h2 data-aos="fade-right" data-aos-duration="600" data-aos-delay="1500"
+        <h2 data-aos="fade-right" data-aos-duration="500" data-aos-delay="1500"
             data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
             class="certificatetext text-center">Certificates</h2>
 
-        <div data-aos="fade-left" data-aos-duration="800" data-aos-delay="1000"
+        <div data-aos="fade-left" data-aos-duration="800" data-aos-delay="2000"
               data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" class="row card-section">
           <div class="col-sm">
             <div class="card card-design text-center">
-              <h3 class="mt-4 certificate-card-header"><strong>Responsive Web Design</strong></h3>
+              <h3 class="mt-4 certificate-card-header"><strong>Responsive Design</strong></h3>
               <div class="card-body">
-                <p class="card-text custom-card-text"> This is a web development approach that creates dynamic changes to the appearance of a website,
-                  depending on the screen size and orientation of the device being used to view it (e.g Smartphones, Laptop, Personal Computer).</p>
+                <p class="card-text custom-card-text"> A web development approach that creates dynamic changes to the appearance of a website,
+                  depending on the screen size and orientation of the device being used to view it (e.g Smartphones, Laptop, Computers).</p>
                 <div class="pb-4 pt-0 mt-0">
-                  <a href="https://freecodecamp.org/certification/tadss/responsive-web-design" target="_blank" class="download-button learn-more" role="button">Check Certificate</a>
+                  <a href="https://freecodecamp.org/certification/tadss/responsive-web-design" target="_blank" class="root-button resume-button certificate-button" role="button"><span> <i class="fa fa-check" aria-hidden="true"></i> CHECK</span></a>
                 </div>
               </div>
             </div>
           </div>
-          <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="2000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"class="col-sm">
+          <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="2500" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"class="col-sm">
             <div class="card card-design text-center">
-              <h3 class="mt-4 certificate-card-header"><strong>JavaScript Algorithms and Data Structures</strong></h3>
+              <h3 class="mt-4 certificate-card-header"><strong>Data Structures</strong></h3>
               <div class="card-body">
-                <p class="card-text custom-card-text">This is a programming approach that tackles the fundamentals and basics of programming in JavaScript and
-                  also the ways or programming styles. Some of it are Object Oriented Programming and Functional Programming.
+                <p class="card-text custom-card-text">A programming approach that tackles programming fundamentals and
+                  also the ways or programming styles. Example are Object Oriented Programming and Functional Programming.
                 </p>
                 <div class="pb-4 pt-0 mt-0">
-                  <a href="https://www.freecodecamp.org/certification/tadss/javascript-algorithms-and-data-structures" target="_blank" class="download-button learn-more" role="button">Check Certificate</a>
+                  <a href="https://www.freecodecamp.org/certification/tadss/javascript-algorithms-and-data-structures" target="_blank" class="root-button resume-button certificate-button" role="button"><span> <i class="fa fa-check" aria-hidden="true"></i> CHECK</span></a>
                 </div>
               </div>
             </div>
           </div>
           <div data-aos="fade-left" data-aos-duration="800" data-aos-delay="3000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" class="col-sm">
             <div class="card card-design text-center">
-              <h3 class="mt-4 certificate-card-header"><strong>Frontend Libraries</strong></h3>
+              <h3 class="mt-4 certificate-card-header"><strong>Frontend <br>Libraries</strong></h3>
               <div class="card-body">
-                <p class="card-text custom-card-text">This includes the Frontend Libraries or frameworks but in this section I learned Bootstrap and the ways of using it together with HTML and React Framework. In this
+                <p class="card-text custom-card-text">In this section I learned Bootstrap and the ways of using it together with HTML and React Framework. In this
                   section I go deeper in learning Frontend Framework skills that is necessary. </p>
                 <div class="pb-4 pt-0 mt-0">
-                  <a href="https://www.freecodecamp.org/certification/tadss/front-end-libraries" target="_blank" class="download-button learn-more" role="button">Check Certificate</a>
+                  <a href="https://www.freecodecamp.org/certification/tadss/front-end-libraries" target="_blank" class="root-button resume-button certificate-button" role="button"><span> <i class="fa fa-check" aria-hidden="true"></i> CHECK</span></a>
                 </div>
               </div>
             </div>
@@ -138,7 +149,7 @@
                  data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" class="row card-section">
               <div class="col-sm">
                 <div class="card card-design text-center">
-                  <h3 class="mt-4 certificate-card-header"><strong>UI / UX Design</strong></h3>
+                  <h3 class="mt-4 certificate-card-header"><strong>UI / UX <br>Design</strong></h3>
                   <div class="card-body">
                     <p class="card-text custom-card-text">In UI/UX Design it involves improving some of already built site into much better and optimized one.
                        Considering the client needs and revisions that needs to be done. This helps businesses and websites to be more pleasing
@@ -148,7 +159,7 @@
               </div>
               <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="2000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"class="col-sm">
                 <div class="card card-design text-center">
-                  <h3 class="mt-4 certificate-card-header"><strong>Frontend Development</strong></h3>
+                  <h3 class="mt-4 certificate-card-header"><strong>Frontend <br>Development</strong></h3>
                   <div class="card-body">
                     <p class="card-text custom-card-text">In Frontend Development it involves the overall structure of the Website where
                       I will make a concept for new UI/UX for either your personal or business website. It can also be a translating work where I
@@ -158,7 +169,7 @@
               </div>
               <div data-aos="fade-left" data-aos-duration="800" data-aos-delay="3000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" class="col-sm">
                 <div class="card card-design text-center">
-                  <h3 class="mt-4 certificate-card-header"><strong>Backend Development</strong></h3>
+                  <h3 class="mt-4 certificate-card-header"><strong>Backend <br>Development</strong></h3>
                   <div class="card-body">
                     <p class="card-text custom-card-text">In Backend Development it involves the overall functions that makes the Website
                       functional. In this REST Api is my best tool and I can do this using Php and MySql way. Also in NodeJS, Express and MongoDB way.
@@ -218,7 +229,7 @@
                     <h4 class="toolcardtext text-center">Designing</h4>
                     <p class="toolcardsubtext text-center">In designing I value the clients suggestions if there's one yet I also suggest much better designs if it doesn't seem to fit the subject or the thing I'm designing.</p>
                     <p class="toolsmaintext text-center"><strong>Design Tools:</strong></p>
-                    <ul class="list-group list-group-flush  toolcardlisttext text-center">
+                    <ul class="list-group list-group-flush toolcardlisttext text-center">
                       <li class="list-group-item items-tools-style">Material UI</li>
                       <li class="list-group-item items-tools-style">Rsuite</li>
                       <li class="list-group-item items-tools-style">Bootstrap</li>
@@ -262,7 +273,7 @@
                       <li class="list-group-item items-tools-style">Github, Tortoise Git</li>
                       <li class="list-group-item items-tools-style">Pen and Paper</li>
                       <li class="list-group-item items-tools-style">Postman</li>
-                      <li class="list-group-item items-tools-style">Browser Web Tools (e.g. Redux Dev Tools)</li>
+                      <li class="list-group-item items-tools-style">Browser Web Tools</li>
                       <li class="list-group-item items-tools-style">Others if needed.</li>
                     </ul>
                   </div>
@@ -270,12 +281,6 @@
               </div>
             </div>
        </div>
-
-       <!-- Downloading Resume -->
-       <div data-aos="zoom-in" data-aos-duration="800" data-aos-easing="ease-in-out" class="mt-5 display-center margin-custom">
-        <a href="https://drive.google.com/file/d/1tjzB27tI-fCjpq5s9dtSa2Stuiubgsyd/view?usp=sharing" target="_blank" class="download-button learn-more" role="button">Check My Resume</a>
-       </div>
-
     </div>
 
      <!-- Footer -->
