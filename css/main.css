@@ -40,6 +40,11 @@ html, body{
 	color: #3a4046;
 }
 
+.myName{
+	color: #2a9df4!important;
+	margin-bottom: 15px;
+}
+
 .subintro-text{
 	margin-top: 15px;
 	font-family: 'Open Sans', sans-serif;
@@ -214,6 +219,8 @@ html, body{
 	text-align: justify;
 	font-size: 20px;
 	margin-top: 15px;
+	margin-left: 20px;
+	margin-right: 20px;
 	color: #747b81;
 }
 
@@ -232,6 +239,10 @@ html, body{
 .toolcardlisttext{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
+}
+
+.adjust-margin{
+	margin-top: 20px;
 }
 
 .certificate-card-header{
@@ -287,6 +298,10 @@ html, body{
 		margin-top: 20px;
 	}
 
+	#illustration{
+		display: none;
+	}
+
 	.certificate-card-header{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18.5pt;
@@ -331,4 +346,57 @@ html, body{
 	  }
 }
 
-  
+@media only screen and (max-width: 992px) {
+	.main{
+		margin-left: 30px;
+		margin-right: 30px;
+		margin-top: 20px;
+	}
+
+	#illustration{
+		display: none;
+	}
+
+	.certificate-card-header{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18.5pt;
+	height: 80px;
+	color: #3a4046;
+	}
+
+	.flex-item-right, .flex-item-left {
+		flex: 100%;
+	}
+
+	.introtext{
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 36pt;
+		margin-top: 50px;
+		font-weight: 900;
+		color: #3a4046;
+	}
+
+	.subabout-text{
+		margin-top: 55px;
+		margin-left: 20px;
+		margin-right: 20px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 600;
+		color: #747b81;
+	}
+	#TopButton {
+		display: none;
+		position: fixed;
+		bottom: 20px;
+		right: 10px;
+		z-index: 99;
+		font-size: 18px;
+		border: none;
+		outline: none;
+		background-color: #3a4046;
+		color: white;
+		cursor: pointer;
+		padding: 15px;
+		border-radius: 20px;
+	  }
+}
