@@ -1,5 +1,5 @@
 .footer {
-  background: #272526;
+  background: #3a4046;
   color: white;
 }
 .footer .links ul {
@@ -11,7 +11,7 @@
 }
 .footer .links li a:hover {
   text-decoration: none;
-  color: #4180cb;
+  color: #2a9df4;
 }
 .footer .about-company i {
   font-size: 35px;
