@@ -53,6 +53,25 @@ html, body{
 	color: #747b81;
 }
 
+a:link, a:visited,  a:hover, a:active
+{
+	color: #ffffff;
+    text-decoration: none;
+}
+
+.linked-button{
+	padding-left: 35px!important;
+	padding-right: 35px!important;
+	padding-top: 12px!important;
+	padding-bottom: 12px!important;
+	margin-right: 15px!important;
+}
+
+.download-divider{
+	border-left: 6px black;
+	height: 500px;
+}
+
 .root-button {
 	text-align: center;
 	cursor: pointer;
